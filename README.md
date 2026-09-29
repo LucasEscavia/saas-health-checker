@@ -123,6 +123,7 @@ Recommendation to move from potential risks to prioritized fixes, followed by a 
 - **Strict Evidence over Assumptions:** Findings are 100% grounded in code observed in the repo. No invented traffic, database sizes, or metrics.
 - **Max 5 Signals:** Quality over quantity. Zero low-value linter or cosmetic complaints.
 - **Facts vs Hypotheses:** Every finding is categorized with **Severity** (`HIGH`/`MEDIUM`/`LOW`), **Confidence** (`CONFIRMED`/`LIKELY`/`UNKNOWN`), and **Growth impact** (`HIGH`/`MEDIUM`/`LOW`).
+- **Language Matching:** The report and chat responses automatically match the language you use (e.g. French, English, Spanish). Bare slash commands default to English. The entire report remains 100% consistent in that language.
 
 ---
 
