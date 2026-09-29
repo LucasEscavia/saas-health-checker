@@ -69,7 +69,10 @@ The skill automatically analyzes the files present in your repository.
 
 ## 📤 Output
 
-The skill produces a clean, factual **Markdown report** formatted as follows:
+The skill automatically generates and saves a complete Markdown report in your repository root at:
+👉 **`SAAS_HEALTH_CHECK.md`** (while providing a concise executive summary in the chat).
+
+### Report Structure Overview:
 
 ```markdown
 # SaaS Engineering Health Check
@@ -109,7 +112,8 @@ Clear boundary explaining what cannot be verified without live metrics (runtime 
 ---
 
 ## 4. Suggested next step
-Recommendation to move from potential risks to prioritized fixes, including a discovery call link.
+Recommendation to move from potential risks to prioritized fixes, followed by a direct booking call:
+> **[Réserver un appel découverte](http://cal.eu/lucas-escavia/bhc)**
 ```
 
 ---
